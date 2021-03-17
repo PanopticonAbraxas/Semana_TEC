@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-#cam = cv2.VideoCapture(0) #Abre la cámara default
+cam = cv2.VideoCapture(0) #Abre la cámara default
 filtro = np.array([[-1,-1,-1],[-1,8,-1],[-1,-1,-1]])
 filtro_gauss = np.array([[1,4,7,4,1],[4,16,26,16,4],[7,26,41,26,6],[4,16,26,16,4],[1,4,7,4,1]]) / 273
 
