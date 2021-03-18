@@ -43,3 +43,5 @@ imagen = convolucion(imagen, kernel, pad = 1)
 
 cv2.imshow('Prueba', imagen)
 cv2.waitKey(0)
+
+#Codigo original de SamratSahoo en Github
